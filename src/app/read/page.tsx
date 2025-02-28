@@ -20,6 +20,7 @@ export default function ReadLoveLetter() {
       if (!originalText) throw new Error("Wrong password");
       setDecryptedMessage(originalText);
     } catch (error) {
+        console.log(error)
       alert("Invalid password or message");
     }
   };
