@@ -44,7 +44,7 @@ export default function ReadLoveLetter() {
         {decryptedMessage && (
           <div className="mt-6 p-4 bg-gray-100 border rounded-lg text-black shadow-md">
             <p className="text-lg font-semibold">Decrypted Message:</p>
-            <p className="mt-2 italic">"{decryptedMessage}"</p>
+            <p className="mt-2 italic">&quot;{decryptedMessage}&quot;</p>
           </div>
         )}
       </div>
